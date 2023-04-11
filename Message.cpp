@@ -1,8 +1,12 @@
+#incl
+
+using namespace std;
+
 class Message
 {
     private:
-        //unordered_map;
-
+        unordered_map<string, unordered_map<string, int>> um;
+        int nodes = 5;
         unordered_map unbox(string m)
 
     public:
@@ -19,7 +23,7 @@ class Message
 
         string get_message()
         {
-
+            
         }
 
 }
